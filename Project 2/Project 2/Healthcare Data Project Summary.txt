@@ -1,0 +1,111 @@
+Medical Dataset Analysis: Python, SQL, and Insights
+
+Project Overview
+
+This project dives deep into healthcare data using a combination of Python, SQL, and data visualization techniques. It explores three interconnected datasets — `hospitalisation_details`, `medical_examinations`, and `names`. Together, these datasets offer a comprehensive perspective on patient health records, hospital charges, and other critical medical indicators.
+
+Tools & Technologies Used
+
+- Python  
+- Pandas  
+- SQL  
+- Jupyter Notebook  
+
+Project Objectives
+
+The key aims of this project are to:
+
+1. Extract meaningful insights from structured healthcare data  
+2. Identify patterns and trends in hospital charges and patient profiles  
+3. Understand the role of health-related factors like BMI and smoking in influencing medical expenses  
+
+Key Findings
+
+Throughout the analysis, several noteworthy insights emerged:
+
+- Hospital charges were significantly higher for patients undergoing major surgeries or suffering from certain chronic conditions.  
+- Clear variations in average charges were observed across hospital tiers and city tiers, suggesting disparity in healthcare access or infrastructure.  
+- BMI had a strong correlation with rising healthcare costs, particularly among patients categorized as obese.  
+- Hospitalization charges increased noticeably over the years, hinting at growing medical costs.  
+- Smoking patients showed steady hospitalization patterns, revealing a long-term trend in health-related risks.  
+- A portion of patients were hospitalized repeatedly, highlighting potential chronic or unmanaged conditions.  
+- Average medical charges also varied across different gender groups, as did BMI-related healthcare costs.
+
+Challenges Faced
+
+Several challenges had to be addressed during the course of the project:
+
+- Cleaning data by handling null values and removing duplicate entries  
+- Combining and joining multiple tables for holistic analysis  
+- Ensuring accuracy and consistency across all datasets  
+- Writing complex SQL queries for layered insights  
+
+These were resolved through structured preprocessing in Python and efficient SQL querying techniques.
+
+Results Overview
+
+1. Average Hospital Charges  
+   Calculated the overall average hospital charge: $13,564.60
+
+2. High Charges Analysis  
+   Extracted records with charges over $700 to focus on outliers.
+
+3. High BMI Patients  
+   Listed patients with a BMI greater than 35, along with their charges.
+
+4. Patients with Major Surgeries  
+   Identified individuals who have undergone one or more major surgeries.
+
+5. Charges by Hospital Tier (Year 2000)  
+   Broke down average hospital charges by hospital tier for the year 2000.
+
+6. Smokers with Transplants  
+   Retrieved patients who both smoke and have received organ transplants — a high-risk category.
+
+7. Surgery or Cancer History Patients  
+   Found customers with two or more surgeries or a history of cancer.
+
+8. Customer with Most Surgeries  
+   Pinpointed the individual with the highest number of major surgeries.
+
+9. City Tier Distribution of Surgical Patients  
+   Connected surgical patients to their respective city tiers.
+
+10. Average BMI by City Tier (1995)  
+    Calculated city-tier-wise BMI averages for the year 1995.
+
+11. Health Issues and High BMI  
+    Retrieved patients with both health issues and a BMI above 30.
+
+12. Top Charges by Year  
+    Identified customers with the highest hospital charges per year, along with their city tier.
+
+13. Top 3 Customers by Avg. Yearly Charges  
+    Found customers who, on average, had the highest charges each year.
+
+14. Customer Ranking by Total Charges  
+    Ranked all patients based on total hospitalization charges incurred.
+
+15. Peak Year of Hospitalizations  
+    The year 2004 recorded the highest number of hospitalizations.
+
+16. Yearly Trend of Smoking Patients  
+    A time-series view of smoking patient counts showed patterns of smoking-related hospitalizations over the years.
+
+17. Repeat Hospitalized Customers  
+    Identified patients who had multiple hospital visits, indicating recurring or chronic conditions.
+
+18. BMI Category vs. Average Charges  
+    Grouped patients by BMI classification (e.g., Underweight, Obese II, etc.) and analyzed the average charges within each category.
+
+19. Average Charges Over Time by Gender  
+    Compared how average charges have changed over time for different genders — highlighting potential inequalities or demographic health trends.
+
+Conclusion
+
+This project offered valuable insights into the complexities of healthcare data. With the integration of SQL and Python, we were able to uncover cost patterns, demographic disparities, and risk factors that impact hospitalization and healthcare charges.
+
+Our findings reveal how health indicators like BMI, smoking habits, and surgical history contribute to rising medical costs. The trends by city, hospital tier, and year also provide a broader understanding of where and how medical expenses vary — insights that are critical for both policy makers and healthcare providers.
+
+As a data-driven analysis, this project underscores the importance of merging data science with healthcare systems. With the right tools and approach, even a simple dataset can lead to impactful discoveries that can shape better health policies and targeted patient care.
+
